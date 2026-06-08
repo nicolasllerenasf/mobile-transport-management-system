@@ -1,0 +1,17 @@
+export const colors = {
+  brandPurple: '#4B2E83',
+  brandPurpleSoft: '#EEE9F7',
+  brandRed: '#E53935',
+  brandRedSoft: '#FDECEA',
+  brandInk: '#1F1F2A',
+  surfaceSoft: '#F5F5F7',
+  white: '#FFFFFF',
+  gray100: '#F3F4F6',
+  gray200: '#E5E7EB',
+  gray400: '#9CA3AF',
+  gray500: '#6B7280',
+  green: '#22C55E',
+  greenSoft: '#DCFCE7',
+  blue: '#2563EB',
+  orange: '#FB923C',
+};

@@ -1,0 +1,48 @@
+{
+  "expo": {
+    "name": "Footloose Despacho",
+    "slug": "footloose-despacho",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "userInterfaceStyle": "light",
+    "newArchEnabled": true,
+    "scheme": "footloose-despacho",
+    "assetBundlePatterns": ["**/*"],
+    "ios": {
+      "supportsTablet": false,
+      "bundleIdentifier": "pe.footloose.despacho"
+    },
+    "android": {
+      "package": "pe.footloose.despacho",
+      "permissions": [
+        "ACCESS_FINE_LOCATION",
+        "ACCESS_COARSE_LOCATION",
+        "CAMERA"
+      ]
+    },
+    "plugins": [
+      [
+        "expo-location",
+        {
+          "locationWhenInUsePermission": "Footloose Despacho usa tu ubicacion para mostrar tu posicion en ruta a la central."
+        }
+      ],
+      [
+        "expo-camera",
+        {
+          "cameraPermission": "Footloose Despacho usa la camara para escanear las guias de remision.",
+          "recordAudioAndroid": false
+        }
+      ],
+      [
+        "expo-image-picker",
+        {
+          "cameraPermission": "Footloose Despacho usa la camara para tomar la foto de evidencia de entrega."
+        }
+      ]
+    ],
+    "extra": {
+      "apiUrl": "https://apistest.footloose.pe/transport-management-system/api"
+    }
+  }
+}
